@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rickshaw Stand - Gulberg</title>
+
+    <style>
+        body {
+            margin: 0;
+           
+            font-family: Arial, sans-serif;
+        }
+
+        /* Main Parking Area (Container) */
+        .parking-lot {
+            height: 300px;
+            width: 90%;
+            margin: 50px auto;
+            background-color: #ddd;
+            border: 4px solid #333;
+
+            display: flex;                     /* Activate Flexbox */
+            justify-content: space-between;   /* Spread across width */
+            align-items: center;              /* Vertical center */
+            padding: 0 40px;                  /* Little side breathing space */
+        }
+
+        /* Rickshaws (Items) */
+        .rickshaw {
+            width: 120px;
+            height: 120px;
+            background-color: #2ecc71;
+            border: 3px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parking-lot">
+        <div class="rickshaw">Rickshaw 1</div>
+        <div class="rickshaw">Rickshaw 2</div>
+        <div class="rickshaw">Rickshaw 3</div>
+    </div>
+
+</body>
+</html>
